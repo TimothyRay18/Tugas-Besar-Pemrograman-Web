@@ -1,0 +1,6 @@
+Weapon Master
+Mage
+Target Man
+Marksman
+Support
+Assasin

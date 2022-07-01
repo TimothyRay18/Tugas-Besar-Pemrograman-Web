@@ -1,0 +1,72 @@
+Tugas Besar Pemrograman Web
+
+Nama Project : "The Game"
+
+Nama Kelompok :
+1119001 - Dave Nathaniel Kertaatmadja
+1119007 - Timothy Ray
+
+Keterangan Project :
+1. Data Login	//Data Yang Sudah Tersimpan Untuk Login
+
+	a. Member
+		Username : AristoDemos
+		Password : aristo123
+
+	b. Admin
+		Username : Dave
+		Password : dave123
+
+2. Penjelasan Fungsi Dalam Project
+
+	a. Menu Login
+		-Remember me nya dapat dicentang agar dapat balik ke home dan kemudian kembali login lagi tanpa harus mengulang memasukkan username dan password
+		-Jika data tidak terisi(kosong) maka akan muncul message data yang required
+	
+	b. Menu SignIn
+		-Jika username sudah ada di database, maka akan keluar message "username has been used"
+		-Jika password dan confirm password berbeda, maka akan keluar message "password not match"
+		-Jika data tidak terisi(kosong) maka akan muncul message data yang required
+	
+	c. Menu Edit Profile
+		Foto profil, username, password dapat diubah di menu editProfile
+		
+	d. Menu Contact
+		Jika memasukkan comment di contact, maka di file text/comment.txt akan nambah isinya
+
+	e. Menu Add Hero
+		-Jika ada data kosong, maka akan keluar fill in blank space
+		-Jika benar maka masuk database dan bersamaan dengan itu, foto masuk ke web/Upload
+
+	f. Menu Admin
+		-Dapat delete member dan add admin
+
+	g. Menu Back to Home
+		-Akan balik ke menu awal, jika pencet remember me, maka akan otomatis balik ke halaman sesudah login tanpa mengulang proses login(sebelum sejam)
+		-Jika tidak dipencet maka harus login ulang
+	
+	h. Keterangan Lainnya
+		-Username menggunakan ajax. Yaitu ketika menginput username di form signIn, maka akan langsung dicek ke database apakah username tersebut telah tersedia atau belum
+		-Password menggunakan ajax. yaitu ketika menginput password di form signIn, ketika password dan confirm password tidak cocok atau tidak sama, makan akan ditampilkan tulisan “Password not match”
+		-Regex yang digunakan:
+			/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+			Memiliki arti sebagai berikut:
+				-Awal baris dengan satu atau lebih huruf, angka, titik, atau tanda hubung kemudian simbol @ dengan satu atau lebih huruf, angka, titik, atau tanda hubung diikuti oleh satu titik berikutnya, dua hingga enam huruf atau titik dan akhirnya pada akhir garis
+		
+3. Penjelasan Job Desk
+	
+	1119001 - Dave Nathaniel Kertaatmadja
+		- Code 
+		- Database
+		- Design (Utama)
+		- Proposal
+		
+	1119007 - Timothy Ray
+		- Code (Utama)
+		- Database (Utama)
+		- Design
+		- Proposal
+		
+4. Export Table
+	
+	File export dalam bentuk sql --> tubes.sql

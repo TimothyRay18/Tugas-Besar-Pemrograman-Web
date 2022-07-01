@@ -1,0 +1,57 @@
+<head>
+    <title>Gallery | DaTim Project</title>
+    <style>
+		.main {   
+			-ms-flex: 100%; 
+			flex: 100%;
+			background-color: white;
+			padding: 20px;
+		}
+		
+		button {
+			background-color: black;
+			border-color: black;
+			color: white;
+			height: 50px;
+			width: 50px;
+		}
+	</style>
+</head>
+<body>
+<div class="row">
+    <div class="main">
+        <h2>Our Gallery Use Slideshow System</h2>
+        <div>
+            <img class="mySlides" src="../images/COD_MW.jpg" style="width:100%">
+            <img class="mySlides" src="../images/DS2.jpg" style="width:100%">
+            <img class="mySlides" src="../images/SW_JFO.jpg" style="width:100%">
+            <img class="mySlides" src="../images/RMEL.png" style="width:100%">
+            <br>
+        <center>
+            <button onclick="plusDivs(-1)">&#10094;</button>
+            <button onclick="plusDivs(1)">&#10095;</button>
+        </center>
+        </div>
+
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+                x[slideIndex-1].style.display = "block";  
+            }
+        </script>
+    </div>
+</div>
+</body>

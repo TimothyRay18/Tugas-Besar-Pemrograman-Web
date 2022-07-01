@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user>
+    <owner>
+        <name>Dave Nathaniel Kertaatmadja</name>
+        <sd>SD BPK Penabur Holis</sd>
+        <smp>SMP BPK Penabur Holis</smp>
+        <sma>SMA BPK Penabur Holis</sma>
+        <kampus>Harapan Bangsa Institute of Technology</kampus>
+        <hobbies>
+            <hobby>Reading</hobby>
+            <hobby>Playing Video Games</hobby>
+            <hobby>Listening to Music</hobby>
+        </hobbies>
+    </owner>
+    <owner>
+        <name>Timothy Ray</name>
+        <sd>SDK 1 Bina Bakti</sd>
+        <smp>SMP Citra Cemara</smp>
+        <sma>SMAK 1 Bina Bakti</sma>
+        <kampus>Harapan Bangsa Institute of Technology</kampus>
+        <hobbies>
+            <hobby>Playing Video Games</hobby>
+            <hobby>Playing soccer</hobby>
+        </hobbies>
+    </owner>
+</user>
